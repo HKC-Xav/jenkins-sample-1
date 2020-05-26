@@ -3,7 +3,7 @@
 	<groupId>formation.jenkins</groupId>
 	<artifactId>FormationXavier</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<name>FormationXavier</name>
 	<url>http://maven.apache.org</url>
 
@@ -47,13 +47,13 @@
 		</snapshotRepository>
 		<repository>
 			<id>nexus-releases</id>
-			<url >http://35.187.84.181:8081/repository/maven-releases/</url>
+			<url>http://35.187.84.181:8081/repository/maven-releases/</url>
 		</repository>
 	</distributionManagement>
 	<scm>
 		<connection>scm:git:https://github.com/HKC-Xav/jenkins-sample-1.git</connection>
 		<url>https://github.com/HKC-Xav/jenkins-sample-1</url>
 		<developerConnection>scm:git:https://github.com/HKC-Xav/jenkins-sample-1.git</developerConnection>
-        <tag>HEAD</tag>
+        <tag>v1.0.0</tag>
   </scm>
 </project>
